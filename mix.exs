@@ -36,8 +36,7 @@ defmodule BotHub.Mixfile do
       {:cowboy, "~> 1.0"},
       {:plug, "~> 1.0"},
       {:gproc, "0.5.0"},
-      {:exrm, "~> 1.0.3"},
-      {:edeliver, "~> 1.1.5"},
+      {:edeliver, git: "https://github.com/col/edeliver"},
       {:echo_bot, git: "https://github.com/col/echo_bot"}
     ]
   end

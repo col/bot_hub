@@ -2,6 +2,12 @@
 
 **TODO: Add description**
 
+## Deployment
+
+    mix edeliver build release --verbose
+    mix edeliver deploy release to production --verbose
+    mix edeliver start production --verbose
+
 ## Installation
 
 If [available in Hex](https://hex.pm/docs/publish), the package can be installed as:
@@ -17,4 +23,3 @@ If [available in Hex](https://hex.pm/docs/publish), the package can be installed
         def application do
           [applications: [:bot_hub]]
         end
-
