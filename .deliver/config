@@ -4,8 +4,8 @@ APP="bot_hub"
 
 BUILD_HOST="bothub.colharris.com"
 BUILD_USER="root"
-BUILD_AT="/git/bothub/apps/bot_hub/builds"
-RELEASE_DIR="/git/bothub/apps/bot_hub/builds/rel/bot_hub"
+BUILD_AT="/git/bot_hub/builds"
+RELEASE_DIR="/git/bot_hub/builds/rel/bot_hub"
 RELEASE_VERSION=0.0.1
 
 STAGING_HOSTS="bothub.colharris.com"
