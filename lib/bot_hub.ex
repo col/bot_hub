@@ -19,7 +19,7 @@ defmodule BotHub do
   end
 
   def run("https") do
-    {:ok, _} = Plug.Adapters.Cowboy.https BotHub.Router, [], ssl_config(Mix.env)
+    {:ok, _} = Plug.Adapters.Cowboy.https BotHub.Router, [], ssl_config(Elixir.Mix.env)
   end
 
   def ssl_config(:prod) do
