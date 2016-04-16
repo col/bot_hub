@@ -4,7 +4,7 @@ defmodule BotHub.Mixfile do
   def project do
     [
       app: :bot_hub,
-      version: "0.0.12",
+      version: "0.0.13",
       elixir: "~> 1.2",
       build_embedded: Mix.env == :prod,
       start_permanent: Mix.env == :prod,
@@ -37,7 +37,7 @@ defmodule BotHub.Mixfile do
       {:plug, "~> 1.0"},
       {:gproc, "0.5.0"},
       {:edeliver, git: "https://github.com/col/edeliver"},
-      {:echo_bot, git: "https://github.com/col/echo_bot"},
+      {:echo_bot, "~> 0.0.2"},
       {:nadia, git: "https://github.com/col/nadia"},
       {:telegram, "~> 0.0.1"},
       {:poison, "~> 2.0", override: true}
