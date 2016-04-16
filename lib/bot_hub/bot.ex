@@ -4,7 +4,7 @@ defmodule BotHub.Bot do
     handle_message(find_bot(bot_name), message)
   end
 
-  defp handle_message(:undefined, message) do
+  defp handle_message(:undefined, _) do
     :bot_not_found
   end
 
