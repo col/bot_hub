@@ -2,7 +2,7 @@
   "cf": {:hex, :cf, "0.2.1"},
   "cowboy": {:hex, :cowboy, "1.0.4"},
   "cowlib": {:hex, :cowlib, "1.0.2"},
-  "edeliver": {:hex, :edeliver, "1.1.5"},
+  "edeliver": {:git, "https://github.com/boldpoker/edeliver", "ed870313f3004d14ec2bf5380bdea99c943cdd73", []},
   "erlware_commons": {:hex, :erlware_commons, "0.19.0"},
   "exrm": {:hex, :exrm, "1.0.3"},
   "getopt": {:hex, :getopt, "0.8.2"},

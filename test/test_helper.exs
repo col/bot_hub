@@ -1,6 +1,6 @@
 ExUnit.start()
 
 case BotHub.Bot.find_bot("SampleBot") do
-  :undefined -> SampleBot.Worker.start_link()
+  :undefined -> SampleBot.start(nil, nil)
   _ -> nil
 end

@@ -37,7 +37,7 @@ defmodule BotHub.Mixfile do
       {:plug, "~> 1.0"},
       {:gproc, "0.5.0"},
       {:exrm, "~> 1.0.3"},
-      {:edeliver, ">= 1.1.5"}
+      {:edeliver, git: "https://github.com/boldpoker/edeliver"}
     ]
   end
 end
