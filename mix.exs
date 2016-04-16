@@ -17,7 +17,7 @@ defmodule BotHub.Mixfile do
   # Type "mix help compile.app" for more information
   def application do
     [
-      applications: [:crypto, :public_key, :ssl, :logger, :cowboy, :plug, :gproc, :edeliver, :asn1],
+      applications: [:crypto, :public_key, :ssl, :logger, :cowboy, :plug, :gproc, :edeliver, :echo_bot],
       mod: {BotHub, []}
     ]
   end

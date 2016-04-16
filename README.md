@@ -1,7 +1,5 @@
 # BotHub
 
-**TODO: Add description**
-
 ## Deployment
 
     mix edeliver build release --verbose
@@ -12,16 +10,15 @@
 
     mix edeliver build upgrade --from=0.0.2 --to=0.0.3
 
-
 ## SSL
 
-Local
+*Local*
 
-openssl req -x509 -sha256 -nodes -newkey rsa:2048 -days 365 -keyout localhost.key -out localhost.crt -subj '/CN=localhost'
+    openssl req -x509 -sha256 -nodes -newkey rsa:2048 -days 365 -keyout localhost.key -out localhost.crt -subj '/CN=localhost'
 
-Prod
+*Prod*
 
-openssl req -x509 -sha256 -nodes -newkey rsa:2048 -days 365 -keyout bothub.colharris.key -out bothub.colharris.crt -subj '/CN=bothub.colharris.com'
+    openssl req -x509 -sha256 -nodes -newkey rsa:2048 -days 365 -keyout bothub.colharris.key -out bothub.colharris.crt -subj '/CN=bothub.colharris.com'
 
 ## Installation
 
