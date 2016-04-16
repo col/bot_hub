@@ -3,7 +3,7 @@
   "cf": {:hex, :cf, "0.2.1"},
   "cowboy": {:hex, :cowboy, "1.0.4"},
   "cowlib": {:hex, :cowlib, "1.0.2"},
-  "echo_bot": {:git, "https://github.com/col/echo_bot", "70bd53794cdc1615feb65f16413c3dac10e1b2bc", []},
+  "echo_bot": {:git, "https://github.com/col/echo_bot", "a75ff78143db60493c1be3d3cb751238622a57e8", []},
   "edeliver": {:git, "https://github.com/col/edeliver", "a4df5e96c0771a7a17339a48edd35168285ffef5", []},
   "erlware_commons": {:hex, :erlware_commons, "0.19.0"},
   "exrm": {:hex, :exrm, "1.0.3"},
@@ -21,4 +21,4 @@
   "ranch": {:hex, :ranch, "1.2.1"},
   "relx": {:hex, :relx, "3.18.0"},
   "ssl_verify_fun": {:hex, :ssl_verify_fun, "1.1.0"},
-  "telegram": {:git, "https://github.com/col/telegram", "05b1c186988c7c634253532988a98c2c052f55d7", []}}
+  "telegram": {:hex, :telegram, "0.0.1"}}

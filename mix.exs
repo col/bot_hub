@@ -39,7 +39,7 @@ defmodule BotHub.Mixfile do
       {:edeliver, git: "https://github.com/col/edeliver"},
       {:echo_bot, git: "https://github.com/col/echo_bot"},
       {:nadia, git: "https://github.com/col/nadia"},
-      {:telegram, git: "https://github.com/col/telegram"},
+      {:telegram, "~> 0.0.1"},
       {:poison, "~> 2.0", override: true}
     ]
   end
