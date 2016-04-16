@@ -4,7 +4,7 @@ defmodule BotHub.Mixfile do
   def project do
     [
       app: :bot_hub,
-      version: "0.0.13",
+      version: "0.0.14",
       elixir: "~> 1.2",
       build_embedded: Mix.env == :prod,
       start_permanent: Mix.env == :prod,
