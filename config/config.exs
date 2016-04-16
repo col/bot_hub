@@ -29,4 +29,6 @@ use Mix.Config
 #
 #     import_config "#{Mix.env}.exs"
 
+config :bot_hub, protocol: "https"
+
 config :echo_bot, token: (System.get_env("ECHO_BOT_TOKEN") || "")

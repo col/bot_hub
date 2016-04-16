@@ -2,6 +2,7 @@ defmodule BotHub.Router do
   use Plug.Router
 
   plug Plug.Logger
+  plug Plug.Static, at: "/", from: :bot_hub, only: ~w(.well-known)
   plug :match
   plug :dispatch
 
