@@ -1,34 +1,11 @@
-# This file is responsible for configuring your application
-# and its dependencies with the aid of the Mix.Config module.
 use Mix.Config
 
-# This configuration is loaded before any dependency and is restricted
-# to this project. If another project depends on this project, this
-# file won't be loaded nor affect the parent project. For this reason,
-# if you want to provide default values for your application for
-# 3rd-party users, it should be done in your "mix.exs" file.
+config :bot_hub, http_port: 80
 
-# You can configure for your application as:
-#
-#     config :bot_hub, key: :value
-#
-# And access this configuration in your application as:
-#
-#     Application.get_env(:bot_hub, :key)
-#
-# Or configure a 3rd-party app:
-#
-#     config :logger, level: :info
-#
-
-# It is also possible to import configuration files, relative to this
-# directory. For example, you can emulate configuration per environment
-# by uncommenting the line below and defining dev.exs, test.exs and such.
-# Configuration from the imported file will override the ones defined
-# here (which is why it is important to import them last).
-#
-#     import_config "#{Mix.env}.exs"
-
-config :bot_hub, protocol: "https"
+config :bot_hub, https_port: 443
+config :bot_hub, ssl_key: "priv/ssl/localhost.key"
+config :bot_hub, ssl_crt: "priv/ssl/localhost.crt"
 
 config :echo_bot, token: (System.get_env("ECHO_BOT_TOKEN") || "")
+
+import_config "#{Mix.env}.exs"
