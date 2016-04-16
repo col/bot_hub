@@ -28,3 +28,5 @@ use Mix.Config
 # here (which is why it is important to import them last).
 #
 #     import_config "#{Mix.env}.exs"
+
+config :echo_bot, token: (System.get_env("ECHO_BOT_TOKEN") || "")
