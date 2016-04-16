@@ -17,7 +17,7 @@ defmodule BotHub.Mixfile do
   # Type "mix help compile.app" for more information
   def application do
     [
-      applications: [:crypto, :public_key, :ssl, :logger, :cowboy, :plug, :gproc, :edeliver, :echo_bot],
+      applications: [:crypto, :public_key, :ssl, :logger, :cowboy, :plug, :gproc, :edeliver, :echo_bot, :poison],
       mod: {BotHub, []}
     ]
   end
@@ -40,7 +40,7 @@ defmodule BotHub.Mixfile do
       {:echo_bot, "~> 0.0.2"},
       {:nadia, git: "https://github.com/col/nadia"},
       {:telegram, "~> 0.0.1"},
-      {:poison, "~> 2.0", override: true}
+      {:poison, "~> 2.0"}
     ]
   end
 end
