@@ -4,7 +4,7 @@ defmodule BotHub.Mixfile do
   def project do
     [
       app: :bot_hub,
-      version: "0.0.14",
+      version: "0.0.15",
       elixir: "~> 1.2",
       build_embedded: Mix.env == :prod,
       start_permanent: Mix.env == :prod,
@@ -17,7 +17,7 @@ defmodule BotHub.Mixfile do
   # Type "mix help compile.app" for more information
   def application do
     [
-      applications: [:crypto, :public_key, :ssl, :logger, :cowboy, :plug, :gproc, :edeliver, :echo_bot, :poison],
+      applications: [:crypto, :public_key, :ssl, :logger, :cowboy, :plug, :gproc, :edeliver, :echo_bot, :poison, :telegram],
       mod: {BotHub, []}
     ]
   end
