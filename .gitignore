@@ -3,3 +3,5 @@
 /deps
 erl_crash.dump
 *.ez
+bothub.colharris.crt
+bothub.colharris.key
