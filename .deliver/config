@@ -16,3 +16,5 @@ TEST_AT="/test/bot_hub"
 PRODUCTION_HOSTS="bothub.colharris.com"
 PRODUCTION_USER="root"
 DELIVER_TO="/opt/bot_hub"
+
+RELEASE_STORE=s3://$AWS_ACCESS_KEY_ID@$AWS_SECRET_ACCESS_KEY:bot-hub-releases
