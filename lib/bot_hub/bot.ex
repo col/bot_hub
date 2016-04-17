@@ -13,7 +13,7 @@ defmodule BotHub.Bot do
   end
 
   def find_bot(name) do
-    :gproc.where({:n, :l, {:bot, name}})
+    :global.whereis_name(name)
   end
 
 end
