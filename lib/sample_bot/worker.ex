@@ -6,7 +6,7 @@ defmodule SampleBot.Worker do
   end
 
   def init(name) do
-    :gproc.reg({:n, :l, {:bot, name}})
+    :global.register_name(name, self)
     {:ok, []}
   end
 
