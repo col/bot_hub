@@ -1,4 +1,4 @@
 use Mix.Config
 
-config :bot_hub, ssl_key: "priv/ssl/bothub.colharris.key"
-config :bot_hub, ssl_crt: "priv/ssl/bothub.colharris.crt"
+config :bot_hub, ssl_key: "/etc/ssl/bothub.colharris.key"
+config :bot_hub, ssl_crt: "/etc/ssl/bothub.colharris.crt"

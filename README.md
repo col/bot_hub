@@ -3,7 +3,7 @@
 ## Deployment
 
     mix edeliver build release --verbose
-    mix edeliver deploy release to production --verbose
+    mix edeliver deploy release to production --verbose --version=0.0.x
     mix edeliver start production --verbose
 
 ## Upgrade

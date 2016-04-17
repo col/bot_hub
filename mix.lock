@@ -3,7 +3,6 @@
   "cf": {:hex, :cf, "0.2.1"},
   "cowboy": {:hex, :cowboy, "1.0.4"},
   "cowlib": {:hex, :cowlib, "1.0.2"},
-  "echo_bot": {:hex, :echo_bot, "0.0.2"},
   "edeliver": {:git, "https://github.com/col/edeliver", "a4df5e96c0771a7a17339a48edd35168285ffef5", []},
   "erlware_commons": {:hex, :erlware_commons, "0.19.0"},
   "exrm": {:hex, :exrm, "1.0.3"},

@@ -2,6 +2,8 @@
 
 APP="bot_hub"
 
+LINK_SYS_CONFIG=/etc/bot_hub.config
+
 BUILD_HOST="bothub.colharris.com"
 BUILD_USER="root"
 BUILD_AT="/git/bot_hub/builds"
