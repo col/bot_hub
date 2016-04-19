@@ -7,6 +7,7 @@ export PATH=`pwd`/vendor/elixir/bin:$PATH
 echo "Build release..."
 mix edeliver build release
 
+mix do deps.compile, compile
 NEW_VERSION=$( mix version )
 echo "New Version:" $NEW_VERSION
 
