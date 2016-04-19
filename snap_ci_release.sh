@@ -5,4 +5,4 @@ source ~/.kerl/installs/18.2.1/activate
 export PATH=`pwd`/vendor/elixir/bin:$PATH
 
 echo "Build release..."
-mix edeliver build release
+mix edeliver build release --skip-existing
