@@ -1,6 +1,11 @@
 defmodule BotHub do
   use Application
 
+  def version do
+    {:ok, version} = :application.get_key(:bot_hub, :vsn)
+    version
+  end
+
   def start(_type, _args) do
     import Supervisor.Spec, warn: false
 

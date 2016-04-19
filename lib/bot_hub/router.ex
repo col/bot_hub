@@ -11,7 +11,7 @@ defmodule BotHub.Router do
   end
 
   get "/version" do
-    conn |> send_resp(200, Mix.Project.config[:version])
+    conn |> send_resp(200, BotHub.version)
   end
 
   post "/bots/:bot_id/messages" do

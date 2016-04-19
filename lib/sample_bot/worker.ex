@@ -17,7 +17,7 @@ defmodule SampleBot.Worker do
   end
 
   def handle_call(:version, _from, state) do
-    {:reply, Mix.Project.config[:version], state}
+    {:reply, BotHub.version, state}
   end
 
 end
