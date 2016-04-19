@@ -23,7 +23,7 @@ defmodule BotHub.Mixfile do
     [
       {:cowboy, "~> 1.0"},
       {:plug, "~> 1.0"},
-      {:edeliver, git: "https://github.com/col/edeliver"}
+      {:edeliver, "~> 1.1.5"}
     ]
   end
 end
