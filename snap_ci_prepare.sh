@@ -1,3 +1,5 @@
+#!/bin/bash
+
 curl -O https://raw.githubusercontent.com/spawngrid/kerl/master/kerl && chmod a+x kerl
 mkdir -p /var/go/deps
 export MY_DEPS_PATH=/var/go/deps

@@ -2,13 +2,14 @@
 
 ## Deployment
 
-    mix edeliver build release --verbose
-    mix edeliver deploy release to production --verbose --version=0.0.x
-    mix edeliver start production --verbose
+    mix edeliver build release
+    mix edeliver deploy release to production --version=0.0.x
+    mix edeliver start|restart production
 
 ## Upgrade
 
-    mix edeliver build upgrade --from=0.0.2 --to=0.0.3
+    mix edeliver build upgrade --from=0.0.x --to=0.0.z
+    mix edeliver deploy upgrade to production --version=0.0.z
 
 ## SSL
 
