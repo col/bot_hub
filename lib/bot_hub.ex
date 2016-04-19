@@ -6,6 +6,7 @@ defmodule BotHub do
 
     children = [
       worker(__MODULE__, [], function: :run),
+      supervisor(SampleBot, [])
     ]
 
     opts = [strategy: :one_for_one, name: BotHub.Supervisor]

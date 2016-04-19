@@ -7,12 +7,17 @@ defmodule SampleBot.Worker do
 
   def init(name) do
     :global.register_name(name, self)
+    IO.puts "Registered Bot: #{name}"
     {:ok, []}
   end
 
   def handle_cast({:handle_message, message}, state) do
     IO.puts "SampleBot - Received message: #{message}"
     {:noreply, state}
+  end
+
+  def handle_call(:version, _from, state) do
+    {:reply, Mix.Project.config[:version], state}
   end
 
 end
